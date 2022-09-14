@@ -1,0 +1,20 @@
+#activation_buttons {
+    display: flex;
+}
+.switch > img {
+    width: var(--button-item-size);
+}
+
+.switch {
+    margin: 0 calc(var(--button-item-size) / 2);
+    cursor: pointer;
+}
+
+.switch.activated{
+    background-color: #57ffa9;
+    border: 1px solid #57ffa9;
+}
+
+.switch.activated > img {
+    filter: invert(100%);
+}

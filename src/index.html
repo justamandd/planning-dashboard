@@ -3,8 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Planning-Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <header>
+        <nav id="activation_buttons">
+            <div id="checklist_switch" class="button switch">
+                <img src="assets/icons/card-checklist.svg" alt="checklist icon">
+            </div>
+            <div id="pomodoro_switch" class="button switch">
+                <img src="assets/icons/alarm.svg" alt="pomodoro icon">
+            </div>
+            <div id="calendar_switch" class="button switch activated">
+                <img src="assets/icons/calendar-event.svg" alt="calendar icon">
+            </div>
+        </nav>
+    </header>
+    <section id="checklist_sec" class="container">
+        <input type="text" name="task" id="task" placeholder="Nome da tarefa">
+        <ul id="todo_list">
+            <li class="task"></li>
+        </ul>
+    </section>
+    <section id="pomodoro_sec">
 
+    </section>
+    <section id="calendar_sec">
+
+    </section>
 </body>
 </html>

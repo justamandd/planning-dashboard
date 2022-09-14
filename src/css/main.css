@@ -1,0 +1,46 @@
+@import "calendar.css";
+@import "checklist.css";
+@import "pomodoro_timer.css";
+@import "nav.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    --button-item-size: 20px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    border: 1px solid #222;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    user-select: none;
+}
+
+.container {
+    width: 75vw;
+    margin: 0 12.5vw;
+}

@@ -20,9 +20,12 @@
         </nav>
     </header>
     <section id="checklist_sec" class="container">
-        <input type="text" name="task" id="task" placeholder="Nome da tarefa">
+        <div class="task_input_group">
+            <input type="text" name="task_input" id="task_input" placeholder="Nome da tarefa">
+            <button class="button" id="todo_task_button"><img src="assets/icons/plus.svg" alt="plus icon"></button>
+        </div>
         <ul id="todo_list">
-            <li class="task"></li>
+            <li class="task"><span>teste task</span><img src="assets/icons/close.svg" alt="close icon" class="task_delete_button"></li>
         </ul>
     </section>
     <section id="pomodoro_sec">

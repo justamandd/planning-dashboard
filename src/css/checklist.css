@@ -1,0 +1,44 @@
+/* teste */
+
+
+#todo_list > li > img {
+    width: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#todo_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#todo_list > li {
+
+}
+
+.task_input_group {
+    display: flex;
+}
+
+.task_input_group > button {
+    border-radius: 0;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 0 0 0 5px;
+    background-color: #57ffa9;
+}
+
+.task_input_group > button > img {
+    width: 18px;
+}
+
+#task_input {
+    border: none;
+    background-color: whitesmoke;
+}
+
+#task_input:focus {
+    outline: none;
+}

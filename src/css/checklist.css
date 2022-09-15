@@ -14,7 +14,11 @@
 }
 
 #todo_list > li {
-
+    margin: 5px 0;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .task_input_group {
@@ -28,6 +32,9 @@
     border: none;
     margin: 0 0 0 5px;
     background-color: #57ffa9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .task_input_group > button > img {
@@ -36,9 +43,18 @@
 
 #task_input {
     border: none;
+    width: 95%;
     background-color: whitesmoke;
+    height: 30px;
+    padding: 0 0 0 2%;
+    color: #222222;
 }
 
 #task_input:focus {
     outline: none;
+}
+
+#todo_list > li > span {
+    margin: 0 0 0 2%;
+    color: #222222;
 }
